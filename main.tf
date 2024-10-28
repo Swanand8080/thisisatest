@@ -8,6 +8,6 @@ resource "aws_instance" "Sintance" {
         key_name = "Demo"
         associate_public_ip_address = true
 tags = {
-        Name = "Myinstance"
+        Name = "Updated-git-Myinstance"
 }
 }
